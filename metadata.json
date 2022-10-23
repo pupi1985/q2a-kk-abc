@@ -1,0 +1,14 @@
+{
+    "name": "AntiBot Captcha",
+    "uri": "https://github.com/pupi1985/q2a-kk-abc",
+    "description": "Provides support for AntiBot Captcha",
+    "version": "2.0.0",
+    "date": "2022-10-24",
+    "author": "Krzysztof Kielce (extended by pupi1985)",
+    "author_uri": "http://www.question2answer.org/qa/user/Krzysztof+Kielce",
+    "license": "GPLv3",
+    "update_uri": "https://raw.githubusercontent.com/pupi1985/q2a-kk-abc/master/metadata.json",
+    "min_q2a": "1.5.0",
+    "min_php": "7.0.0",
+    "load_order": "after_db_init"
+}
