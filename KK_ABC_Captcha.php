@@ -119,7 +119,7 @@ class KK_ABC_Captcha
 
     private function captcha_check_answer()
     {
-        $inputName = $_SESSION[self::INPUT_NAME];
+        $inputName = $_SESSION[self::INPUT_NAME] ?? null;
 
         $securitycode = qa_post_text($inputName);
         if ($securitycode == '') {
